@@ -10,7 +10,7 @@ The following three common causes can lead to starvation of threads in Java:
 
     Threads waiting on an object (called wait() on it) remain waiting indefinitely because other threads are constantly awakened instead of it.
 
-fairlock : 
+fairlock : we are switched from sychnronized bloc to fairlock bloc
 While it is not possible to implement 100% fairness in Java we can still implement our synchronization constructs to increase fairness between threads. 
 
 example with fairlock : 
